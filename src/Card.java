@@ -4,14 +4,23 @@ public class Card {
 	private String sQuestion;
 	// Answer for the card
 	private String sAnswer;
-	
+	//Add Number attribute
+	private int num;
+
+
 	public Card() {
 		this.sQuestion = "";
 		this.sAnswer = "";
 	}
-	public Card(String sQuestion, String sAnswer) {
+
+	public Card(String sQuestion, String sAnswer, int num ) {
 		this.sQuestion = sQuestion;
 		this.sAnswer = sAnswer;
+		this.num = num;
+	}
+
+	public int getNumber(){
+		return num;
 	}
 	
 	public String getsQuestion() {
