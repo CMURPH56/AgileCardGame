@@ -1,4 +1,8 @@
+package main.java.cardgame;
 import java.util.*;
+import main.java.cardgame.Game;
+import main.java.cardgame.Team;
+
 public class GameDriver {
 
 	
