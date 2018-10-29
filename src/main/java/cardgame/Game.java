@@ -1,6 +1,6 @@
 package main.java.cardgame;
 import java.util.Scanner;
-
+import main.java.cardgame.Team;
 //import java.util.Random;
 
 public class Game {
