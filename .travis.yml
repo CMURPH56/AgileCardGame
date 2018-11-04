@@ -1,2 +1,4 @@
 language: java
 jdk: oraclejdk8
+notifications:
+   slack: agilecardgameapp:lL0V7MT6noR9kwbezUhI4BxC
