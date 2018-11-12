@@ -15,6 +15,5 @@ public class TeamTest {
 		teamOne.setScore(1);
 		teamOne.setScore(4);
 		assertEquals(5, teamOne.getScore());
-		
 	}
 }
